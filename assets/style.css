@@ -1,0 +1,124 @@
+body {
+    background-image: url(./img\ fondo.png)
+}
+.contenedor1{
+    background-color: rgb(200, 245, 245);
+   border-radius: 10px;
+   border: solid 3px;;
+   border-color: rgb(193, 231, 247);
+   padding-left: 20px;
+   padding-top: 15px;
+}
+#fotoDiego{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: solid none;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+#proyectos{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+#imgGym {
+    width: 350px;
+    height: 220px;
+ 
+}
+#furpuripe {
+    width: 300px;
+    height: 220px; 
+}
+.card-link{
+    width: 35px;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top{
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+   
+}
+.contenedor2, .contenedor3, .contenedor4, .contenedor5{
+    border: 2px solid rgba(0, 0, 0, 0.141);
+   border-radius: 10px; 
+   margin-top: 5%;
+
+}
+
+.carousel-control-prev-icon {
+    color: black;
+}
+.form{
+    
+    padding: 5%;
+    margin-top: 5%;
+}
+.btn{
+    margin-top: 3%;
+    background-color: rgb(32, 47, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.pie {
+    text-align: center;
+}
+    
+
+@media  (max-width: 576px) {
+    #fotoDiego {
+        width: 100%;
+        height: auto;
+        transform: scale(80%);}
+    #card-img-top{
+        width: 100%;
+        height: auto;
+    }
+    .carousel-indicators{
+        background-color: #3d3030;
+    }
+    .contenedor4{
+        display: none;
+    }
+}
+@media (min-width:577px) and (max-width:992px){
+
+#primeraDiapo, #segundaDiapo, #terceraDiapo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.contenedor4{
+    display: none;
+}
+}
+
+@media (min-width:993px){
+
+.contenedor3 {
+    display: none;
+    }
+.card-img-top{
+    width: 60%;
+    margin: 0 auto;
+}
+}
+
+
+
+
+
+
+
